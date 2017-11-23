@@ -967,7 +967,7 @@ header nav.navbar #logo a.navbar-brand img {
 
 @media screen and (min-width: 992px) {
   #page-content {
-    margin-bottom: -200px;
+    margin-bottom: -156px;
   }
 }
 
@@ -1006,7 +1006,7 @@ header nav.navbar #logo a.navbar-brand img {
 #wrap-social {
   position: fixed;
   top: 250px;
-  right: -200px;
+  right: -95px;
   z-index: 99;
 }
 
@@ -1193,6 +1193,8 @@ header nav.navbar #logo a.navbar-brand img {
 
 #banner-share .close-button a i {
   margin-left: 8px;
+  font-size: 23px;
+  vertical-align: middle;
 }
 
 #banner-share.is-open {
@@ -1288,7 +1290,7 @@ section#intro .container .row {
 
 section#intro .circle.circle1 {
   position: absolute;
-  top: 250px;
+  top: 50px;
   left: 200px;
 }
 
@@ -1300,8 +1302,8 @@ section#intro .circle.circle2 {
 
 section#intro .circle.circle3 {
   position: absolute;
-  bottom: 150px;
-  left: 350px;
+    bottom: 236px;
+    right: 350px;
 }
 
 @media screen and (max-width: 600px) {
@@ -1663,8 +1665,8 @@ section#about .circle.circle1 {
 
 section#about .circle.circle2 {
   position: absolute;
-  top: 50px;
-  right: 350px;
+  top: 158px;
+  left: 338px;
 }
 
 section#about .wrap-services {
@@ -1943,9 +1945,14 @@ section#works figure em {
   }
 }
 
+.fa{
+  font-weight: lighter;
+  -webkit-text-stroke: 1px background-color;
+}
+  
 section#works figure em:after {
-  content: "\f3d6";
-  font-family: "Ionicons";
+  content: "\f061";
+  font-family: "FontAwesome";
   margin-left: 10px;
   position: absolute;
   top: 1px;
@@ -2594,4 +2601,10 @@ button.mfp-close:hover {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+}
+.fa-times-thin:before {
+  content: '\00d7';
+}
+.circle.circle1.moove-mobile {
+    display: none;
 }
