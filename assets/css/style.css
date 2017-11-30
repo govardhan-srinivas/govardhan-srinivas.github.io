@@ -1006,7 +1006,7 @@ header nav.navbar #logo a.navbar-brand img {
 #wrap-social {
   position: fixed;
   top: 250px;
-  right: -95px;
+  right: -190px;
   z-index: 99;
 }
 
@@ -1106,7 +1106,7 @@ header nav.navbar #logo a.navbar-brand img {
 
 @media screen and (max-width: 767px) {
   #banner-share {
-    padding: 80px 0;
+    padding-top: 30%;
   }
 }
 
@@ -1497,6 +1497,7 @@ section#intro .wrap-description {
 @media screen and (max-width: 430px) {
   section#intro .wrap-description {
     bottom: 0px;
+    left: 50px;
   }
 }
 
@@ -1543,7 +1544,7 @@ section#intro .wrap-content {
 
 @media screen and (max-width: 480px) {
   section#intro .wrap-content {
-    left: -4px;
+    left: 45px;
   }
 }
 
@@ -1576,17 +1577,24 @@ section#intro .wrap-content h1 {
   }
 }
 
+@media screen and (max-width: 380px) {
+  section#intro .wrap-content h1 {
+    font-size: 55px;
+    line-height: 80px;
+  }
+}
+
 @media screen and (max-width: 430px) {
   section#intro .wrap-content h1 {
-    font-size: 86px;
+    font-size: 50px;
     line-height: 93px;
   }
 }
 
-@media screen and (max-width: 380px) {
-  section#intro .wrap-content h1 {
-    font-size: 71px;
-    line-height: 80px;
+@media screen and (max-width: 600px) {
+  section#intro .wrap-content h1.small {
+    font-size: 80px;
+    line-height: 95px;
   }
 }
 
@@ -1597,12 +1605,6 @@ section#intro .wrap-content h1 {
   }
 }
 
-@media screen and (max-width: 600px) {
-  section#intro .wrap-content h1.small {
-    font-size: 80px;
-    line-height: 95px;
-  }
-}
 
 @media screen and (max-width: 480px) {
   section#intro .wrap-content h1.small {
@@ -2151,6 +2153,9 @@ footer .wrap-social ul li a {
   padding: 4px;
 }
 
+footer .wrap-social ul li a:last-child{
+  margin-right: 0px;
+}
 /*-------------------------------------------------*/
 /* =  15.Loader
 /*-------------------------------------------------*/
