@@ -1471,26 +1471,28 @@ section#intro .wrap-description {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  left: -46px;
+  left: 46px;
 }
 
 @media screen and (max-width: 991px) {
   section#intro .wrap-description {
     bottom: -75px;
     top: inherit;
-    left: 0px;
+    left: 40px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 768px) {
   section#intro .wrap-description {
     bottom: 25px;
+    left: 45px;
   }
 }
 
 @media screen and (max-width: 600px) {
   section#intro .wrap-description {
     bottom: -20px;
+    left: 45px;
   }
 }
 
@@ -1538,7 +1540,7 @@ section#intro .wrap-content {
 
 @media screen and (max-width: 991px) {
   section#intro .wrap-content {
-    left: -10px;
+    left: 28px;
   }
 }
 
@@ -1549,7 +1551,7 @@ section#intro .wrap-content {
 }
 
 section#intro .wrap-content h1 {
-  font-size: 165px;
+  font-size: 135px;
   line-height: 170px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -1558,21 +1560,21 @@ section#intro .wrap-content h1 {
 
 @media screen and (max-width: 991px) {
   section#intro .wrap-content h1 {
-    font-size: 145px;
+    font-size: 108px;
     line-height: 160px;
   }
 }
 
 @media screen and (max-width: 600px) {
   section#intro .wrap-content h1 {
-    font-size: 120px;
+    font-size: 90px;
     line-height: 135px;
   }
 }
 
 @media screen and (max-width: 600px) {
   section#intro .wrap-content h1 {
-    font-size: 100px;
+    font-size: 75px;
     line-height: 115px;
   }
 }
