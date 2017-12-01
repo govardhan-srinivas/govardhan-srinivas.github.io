@@ -1720,7 +1720,7 @@ section#about .wrap-services ul li span {
 section#about .wrap-services ul li span:after {
   content: '';
   width: 101%;
-  height: 7px;
+  height: 2px;
   position: absolute;
   bottom: 9px;
   left: 0;
