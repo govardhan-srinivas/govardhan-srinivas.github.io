@@ -1174,7 +1174,7 @@ header nav.navbar #logo a.navbar-brand img {
 
 @media screen and (max-width: 600px) {
   #banner-share .close-button {
-    left: calc(100vw - 112px);
+    left: calc(100vw - 130px);
     top: 0;
     width: 189px;
   }
@@ -1185,7 +1185,7 @@ header nav.navbar #logo a.navbar-brand img {
   font-family: "Inconsolata", monospace;
   font-size: 18px;
   line-height: 28px;
-  margin-right: 36px;
+  /*margin-right: 36px;*/
   text-decoration: none;
   background: #1F1F1F;
   padding: 0 8px;
@@ -1525,11 +1525,11 @@ section#intro .wrap-description p {
 
 section#intro .wrap-content {
   position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  right: 0px;
+  top: 44%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 23%;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1199px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1199px), only screen and (min-device-pixel-ratio: 2) and (min-width: 1199px), only screen and (min-resolution: 192dpi) and (min-width: 1199px), only screen and (min-resolution: 2dppx) and (min-width: 1199px) {
@@ -1541,6 +1541,7 @@ section#intro .wrap-content {
 @media screen and (max-width: 991px) {
   section#intro .wrap-content {
     left: 28px;
+    bottom: 85px;
   }
 }
 
