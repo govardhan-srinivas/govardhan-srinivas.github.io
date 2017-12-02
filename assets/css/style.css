@@ -2086,6 +2086,20 @@ section#awards ul li span {
   font-weight: 400;
 }
 
+section#addons ul li {
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Product Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+section#addons ul li span {
+  font-size: 22px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+}
+
 footer {
   padding-bottom: 100px;
 }
