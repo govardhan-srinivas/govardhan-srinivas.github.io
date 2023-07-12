@@ -1854,7 +1854,7 @@ section#works img {
   transition: all .4s ease;
 }
 
-section#works img:hover {
+section#works .img:hover {
   box-shadow: 0 0 38px rgba(0, 0, 0, 0.8), 0 0 12px rgba(0, 0, 0, 0.8);
   transition: all .4s ease;
 }
